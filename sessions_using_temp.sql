@@ -8,3 +8,4 @@ dba_tablespaces tblsp
 where session_addr=saddr
 and usa.tablespace= tblsp.tablespace_name
 order by extents desc
+;
